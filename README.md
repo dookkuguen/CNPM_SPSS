@@ -6,89 +6,89 @@ chờ đợi theo phương pháp truyền thống. Hệ thống còn cung cấp 
 Sau đó, sinh viên có thể xem tất cả chi tiết về việc sử dụng hệ thống của họ trong lịch sử. Hệ thống này được quản lý bởi Cán bộ Dịch vụ In ấn Sinh viên (SPSO). Họ chịu trách nhiệm cấu hình hệ thống, 
 quản lý máy in và xem số liệu thống kê cũng như hiệu suất của HCMUT_SSPS. SPSO cũng có thể xem lịch sử in ấn của người dùng.
 
-## Technology Stack
-- Front-end: ReactJS, Bootstrap, and other additional libraries provided by npm.
+## Solution Stack
+- Front-end: ReactJS, Bootstrap, và các thư viện bổ sung khác được cung cấp bởi npm.
 - Back-end: NodeJS (v20), ExpressJS.
 - Database: MySQL.
 
 ## Drawbacks
-- No authorization between students and SPSOs
-- Payment methods not integrated
+- Không có sự ủy quyền giữa học sinh và SPSO
+- Phương thức thanh toán chưa được tích hợp
 
 ## Installation
-To use the application, you can follow the following steps:
+Để sử dụng ứng dụng, hãy làm theo các bước sau:
 
 ### Clone the repository
-Open a terminal at a directory of your choice and enter these commands (change the folder name if you want to):
+Mở terminal tại thư mục bạn chọn và nhập các lệnh sau:
 ```
-  git clone https://github.com/quancao2310/CNPM_HCMUT_SSPS.git
-  cd CNPM_HCMUT_SSPS
+  git clone https://github.com/dookkuguen/CNPM_SPSS.git
+  cd CNPM_SSPS
 ```
-Inside **CNPM_HCMUT_SSPS** folder, you will see several subfolders: *client*, *server*, etc.
+Bên trong thư mục **CNPM_SSPS** sẽ thấy các thư mục con sau: *client*, *server*, etc.
 
 ### Install dependencies
-First, if you haven't installed [NodeJS](https://nodejs.org/), please visit https://nodejs.org/ and download it.
+Trước tiên, nếu chưa cài đặt [NodeJS](https://nodejs.org/), hãy truy cập https://nodejs.org/ và tải xuống.
 
-Next, you will have to install all the dependencies of our project. Let's go to the "server" directory first and enter these commands:
+Tiếp theo sẽ phải cài đặt tất cả các phần phụ thuộc của dự án của chúng tôi. Trước tiên hãy vào thư mục "server" và nhập các lệnh sau:
 ```
   cd server
   npm install
 ```
 
-Then, go to the "client" directory and do the same thing by entering these commands:
+Sau đó, đi tới thư mục "client" và thực hiện tương tự bằng cách nhập các lệnh sau:
 ```
   cd client
   npm install
 ```
-You have installed all the dependencies.
+Bạn đã cài đặt tất cả các dependencies.
 
 ### Set up a database server
-The application will also need a MySQL server for the backend to connect to the database. If your machine does not have any MySQL server, install one of your preference ([MySQL official website](https://www.mysql.com/) or [XAMPP](https://www.apachefriends.org/download.html)). Start the server at port 3306 (this port is mostly chosen by default). Import the file "hcmut_ssps.sql" to initialize the database.
+Ứng dụng cũng sẽ cần một máy chủ MySQL cho phần phụ trợ để kết nối với cơ sở dữ liệu. Nếu máy không có bất kỳ máy chủ MySQL nào, hãy cài đặt một trong các tùy chọn của bạn ([MySQL official website](https://www.mysql.com/) hoặc [XAMPP](https://www.apachefriends.org/download.html)). Khởi động máy chủ tại port 3306 (port này hầu hết được chọn theo mặc định). Nhập tệp "hcmut_ssps.sql" để khởi tạo cơ sở dữ liệu.
 <!-- Create a database called "hcmut_ssps" and add some data to it. -->
 
-You are ready now. Let's start the application.
+Bây giờ đã sẵn sàng. Hãy bắt đầu ứng dụng!
 
 ### Run the application
-There are two ways to start the application.
+Có 2 cách để chạy ứng dụng:
 
 #### Start each folder separately
-Start two terminal instances in the **CNPM_HCMUT_SSPS** directory. For the first instance, run these commands:
+Bắt đầu hai phiên bản đầu cuối trong thư mục **CNPM_SSPS**. Trong trường hợp đầu tiên, hãy chạy các lệnh sau:
 ```
   cd server
   npm start
 ```
 
-For the second one, run these commands:
+Trong trường hợp thứ hai, hãy chạy các lệnh sau:
 ```
   cd client
   npm start
 ```
 
-The application should be starting. The ReactJS application will run on http://localhost:3000 and the Express application will run on http://localhost:8080.
+Ứng dụng sẽ được bắt đầu. Ứng dụng ReactJS sẽ chạy trên http://localhost:3000 và ứng dụng Express sẽ chạy trên http://localhost:8080.
 
-To log in as a student:
+Để đăng nhập với tư cách sinh viên:
 * Email: `john.doe@hcmut.edu.vn`
 * Password: `123456`
 
-To log in as an admin:
+Để đăng nhập với tư cách admin:
 * Username: `adminqc`
 * Password: `23571113`
 
-You are now ready to explore our application!
+Bây giờ đã sẵn sàng để khám phá ứng dụng của chúng tôi!
 
 #### Start both folders concurrently in dev mode
-Run `npm install` in the root folder (do this for the first time only), this will install the [concurrently](https://www.npmjs.com/package/concurrently) package. Besides, [nodemon](https://www.npmjs.com/package/nodemon) has also been added to the *server* before.
+Chạy `npm install` trong thư mục gốc (chỉ thực hiện việc này lần đầu tiên), thao tác này sẽ cài đặt gói [concurrently](https://www.npmjs.com/package/concurrently). Ngoài ra, [nodemon](https://www.npmjs.com/package/nodemon) cũng đã được thêm vào *server* trước đó.
 
-Now, to start the project in dev mode, run this command in root folder:
+Bây giờ, để bắt đầu dự án ở chế độ dev, hãy chạy lệnh này trong thư mục gốc:
 ```
   npm run dev
 ```
 
 ## Contributor
-This project is developed by a group of Computer Science students from Ho Chi Minh University of Technology (HCMUT). Our members of the team:
-* Cao Minh Quân - 2112109
-* Huỳnh Nguyên Phúc - 2110451
-* Dương Phúc Thắng - 2112327
-* Nguyễn Quốc Thắng - 2114837
-* Trần Bảo Phúc - 2114452
-* Nguyễn Tiến Phát - 2114381
+Dự án này được phát triển bởi một nhóm sinh viên Khoa khoa học và Kỹ thuật Máy tính đến từ Trường Đại học Bách khoa - ĐHQG TP.HCM. Các thành viên trong nhóm bao gồm:
+* Lê Minh Tuấn - 2252868
+* Huỳnh Đức Nguyên - 2252542
+* Mai Hoàng Huynh - 2211314
+* Nguyễn An Khang - 2211441
+* Hồ Ngọc Anh Tuấn - 2213768
+* Nông Văn Trung - 2213707
