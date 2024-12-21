@@ -52,7 +52,7 @@ Bây giờ đã sẵn sàng. Hãy bắt đầu ứng dụng!
 Có 2 cách để chạy ứng dụng:
 
 #### Start each folder separately
-Bắt đầu hai phiên bản đầu cuối trong thư mục **CNPM_SSPS**. Trong trường hợp đầu tiên, hãy chạy các lệnh sau:
+Bắt đầu hai phiên bản đầu cuối trong thư mục **HCMUT_SSPS**. Trong trường hợp đầu tiên, hãy chạy các lệnh sau:
 ```
   cd server
   npm start
