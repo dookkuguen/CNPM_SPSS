@@ -67,12 +67,12 @@ Trong trường hợp thứ hai, hãy chạy các lệnh sau:
 Ứng dụng sẽ được bắt đầu. Ứng dụng ReactJS sẽ chạy trên http://localhost:3000 và ứng dụng Express sẽ chạy trên http://localhost:8080.
 
 Để đăng nhập với tư cách sinh viên:
-* Email: `john.doe@hcmut.edu.vn`
+* Email: `tuan.hona2004@hcmut.edu.vn`
 * Password: `123456`
 
 Để đăng nhập với tư cách admin:
-* Username: `adminqc`
-* Password: `23571113`
+* Username: `admin_thaonguyen`
+* Password: `123456`
 
 Bây giờ đã sẵn sàng để khám phá ứng dụng của chúng tôi!
 
