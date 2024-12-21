@@ -21,7 +21,7 @@ quản lý máy in và xem số liệu thống kê cũng như hiệu suất củ
 ### Clone the repository
 Mở terminal tại thư mục bạn chọn và nhập các lệnh sau:
 ```
-  git clone https://github.com/dookkuguen/HCMUT_SPSS.git
+  git clone https://github.com/dookkuguen/HCMUT_SSPS
   cd HCMUT_SSPS
 ```
 Bên trong thư mục **HCMUT_SSPS** sẽ thấy các thư mục con sau: *client*, *server*, etc.
