@@ -24,7 +24,7 @@ Mở terminal tại thư mục bạn chọn và nhập các lệnh sau:
   git clone https://github.com/dookkuguen/HCMUT_SPSS.git
   cd HCMUT_SSPS
 ```
-Bên trong thư mục **CNPM_SSPS** sẽ thấy các thư mục con sau: *client*, *server*, etc.
+Bên trong thư mục **HCMUT_SSPS** sẽ thấy các thư mục con sau: *client*, *server*, etc.
 
 ### Install dependencies
 Trước tiên, nếu chưa cài đặt [NodeJS](https://nodejs.org/), hãy truy cập https://nodejs.org/ và tải xuống.
