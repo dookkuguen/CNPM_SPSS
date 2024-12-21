@@ -98,22 +98,22 @@ CREATE TABLE purchase_order (
 -- Insert data for the customer table
 INSERT INTO customer (customer_id, name, password, type, email, balance, last_used)
 VALUES
-(2213768, 'Hồ Ngọc Anh Tuấn', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', 'student', 'tuan.hona2004@hcmut.edu.vn', 100, '2024-11-22 17:55:00'),
-(2213707, 'Nông Văn Trung', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', 'student', 'van.trung@hcmut.edu.vn', 100, '2024-11-29 14:19:03'),
-(2252868, 'Lê Minh Tuấn', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', 'student', 'tuan.le@hcmut.edu.vn', 100, '2024-10-29 14:17:15'),
-(2252542, 'Huỳnh Đức Nguyên', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', 'student', 'nguyen.huynh3103@hcmut.edu.vn', 50, '2024-11-19 10:21:17'),
-(2211314, 'Mai Hoàng Huynh', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', 'student', 'huynh.maihoang@hcmut.edu.vn', 10, '2024-12-01 10:23:40'),
-(2211441, 'Nguyễn An Khang', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', 'student', 'b.tran@hcmut.edu.vn', 6, '2024-10-19 10:23:40');       
+(2213768, 'Hồ Ngọc Anh Tuấn', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', 'student', 'tuan.hona2004@hcmut.edu.vn', 100, '2024-11-22 17:55:00'),
+(2213707, 'Nông Văn Trung', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', 'student', 'van.trung@hcmut.edu.vn', 100, '2024-11-29 14:19:03'),
+(2252868, 'Lê Minh Tuấn', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', 'student', 'tuan.le@hcmut.edu.vn', 100, '2024-10-29 14:17:15'),
+(2252542, 'Huỳnh Đức Nguyên', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', 'student', 'nguyen.huynh3103@hcmut.edu.vn', 50, '2024-11-19 10:21:17'),
+(2211314, 'Mai Hoàng Huynh', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', 'student', 'huynh.maihoang@hcmut.edu.vn', 10, '2024-12-01 10:23:40'),
+(2211441, 'Nguyễn An Khang', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', 'student', 'b.tran@hcmut.edu.vn', 6, '2024-10-19 10:23:40');       
 
 
 -- Insert data for the SPSO table
 INSERT INTO spso (spso_id, name, username, password, dob, email, phone, last_used)
 VALUES
-(1, 'Nguyễn Phạm Thảo Nguyên', 'admin_thaonguyen', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', '1999-07-03', 'thao.nguyen@hcmut.edu.vn', 123456789, '2024-11-29 18:47:31'),
-(2, 'Phương Gia Kiệt', 'admin_giakiet', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', '2001-03-31', 'gia.kiet@hcmut.edu.vn', 123456789, '2024-10-26 00:00:00'),
-(3, 'Đinh Hải Nam', 'admin_hainam', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', '2002-02-27', 'hai.nam@hcmut.edu.vn', 123456789, '2024-12-02 00:00:00'),
-(4, 'Võ Văn Hiếu', 'admin_vanhieu', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', '1997-05-14', 'van.hieu@hcmut.edu.vn', 123456789, '2024-10-29 18:49:25'),
-(5, 'Vũ Đức Toàn', 'admin_ductoan', '$2a$10$kfi60Lqg5/b2PrsTpJ9SMOrufr15jBz/GR0MusAJq9kkF/L/y4arO', '1999-08-16', 'duc.toan@hcmut.edu.vn', 123456789, '2024-11-29 14:27:45');
+(1, 'Nguyễn Phạm Thảo Nguyên', 'admin_thaonguyen', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', '1999-07-03', 'thao.nguyen@hcmut.edu.vn', 123456789, '2024-11-29 18:47:31'),
+(2, 'Phương Gia Kiệt', 'admin_giakiet', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', '2001-03-31', 'gia.kiet@hcmut.edu.vn', 123456789, '2024-10-26 00:00:00'),
+(3, 'Đinh Hải Nam', 'admin_hainam', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', '2002-02-27', 'hai.nam@hcmut.edu.vn', 123456789, '2024-12-02 00:00:00'),
+(4, 'Võ Văn Hiếu', 'admin_vanhieu', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', '1997-05-14', 'van.hieu@hcmut.edu.vn', 123456789, '2024-10-29 18:49:25'),
+(5, 'Vũ Đức Toàn', 'admin_ductoan', '$2a$10$OxERhZZDNwnJasuiO3FR7.EGvF8Pzu7u4XaVmrXdXPpNE6XLBKGAK', '1999-08-16', 'duc.toan@hcmut.edu.vn', 123456789, '2024-11-29 14:27:45');
 
 -- Insert data for the printer table
 INSERT INTO printer (printer_id, name, brand, model, description, loc_campus, loc_building, loc_room, status)
